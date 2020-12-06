@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+docker-compose run app "$@"
+## in the local branch
+#Addded at 6 10 am
+## added again at 6:1
+# 6 15
+# 6 180
