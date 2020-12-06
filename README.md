@@ -1,6 +1,7 @@
 # Final Project
 
-Add your build badge here!
+### This repo is a snapshot of the my final project repo hosted within cscie-29 organization. As such this can be used to just review the materials done so far. But it does not reflect real commit history and can not be used for any grading and evaluation purpose. This is solely created to let my peers view the work I have done so far and provide any feedback they think will help this work. Thanks for visiting this project.
+
 
 [![Build Status](https://travis-ci.com/csci-e-29/2020fa-final-project-kumar-missioncs.svg?token=U6Mg2kwRvGjaRy2Ko3SB&branch=master)](https://travis-ci.com/csci-e-29/2020fa-final-project-kumar-missioncs)
 
@@ -42,5 +43,3 @@ and Support Vector classifier.
 This module is a full luigi pipeline for running all tasks from begining to end. Data is taken from S3 storage and
 processed, normalized, reduced in dimension and final results are printed in csv, and png files. Each result file is
 time-stamped.
-
-
