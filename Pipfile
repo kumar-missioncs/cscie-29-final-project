@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+awscli = "*"
+atomicwrites = "*"
+pandas = "*"
+openpyxl = "*"
+xlrd = "*"
+fastparquet = "*"
+csci-utils = {editable = true, git = "https://github.com/csci-e-29/2020fa-csci-utils-kumar-missioncs"}
+importlib-metadata = "==1.7.0"
+boto3 = "*"
+dask = {extras = ["dataframe"], version = "*"}
+scikit-learn = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+botocore = "*"
+luigi = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.6"
